@@ -1,0 +1,51 @@
+<html>
+ <head>
+  <title>HOME</title>
+  <link rel = "stylesheet" type = text/css href="Practice_2.css"/>
+  <style>See the right hand page</style>
+  
+ </head>
+ <body>
+   
+   <div class = "container_12 clearfix">
+   <div id = "header" class="grid 12">
+     <h1>Mr. Thompson's English Class</h1>
+     <p>Welcome to Mr. Thompson's English class. We're gonna learn lots of cool things about reading, writing, and thinking.<br> Check out the resources below to assist you in your learning.</p>
+       <div id = "nav">
+         <ul>
+           <li><a href="Home_Page.html">Home</a></li>
+           <li><a href="ResourcesPage.html">Resources</a></li>  
+           <li><a href="">Google Classroom</a></li>
+           <li><a href="">AI Essay Tutor</a></li>
+           
+         </ul>
+       </div>
+   </div>
+   <img src = "bookshelf.jpg"
+   class = "align-left" />
+   <img src = "writing.jpg"
+   class = "align-right" />
+   <div id="feature" class="grid_12">
+     <p>Feature</p>
+   </div>
+   <div class="article_grid_4">
+     <p>Column One</p>
+   </div>
+   <div class="article_grid_4">
+     <p>Column Two</p>
+   </div>
+   <div class="article_grid_4">
+     <p>Column Three</p>
+     <figure>
+       <audio controls autoplay  src="Rock_English_Class.m4a"></audio>
+     </figure>
+
+
+   </div>
+   <footer>
+     <p>&copyJohn Thompson 2024</p>
+   </footer>
+  </div><!-- .container_12 -->
+</body>
+ 
+</html>

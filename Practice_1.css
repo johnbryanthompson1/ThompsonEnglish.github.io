@@ -1,0 +1,55 @@
+
+body  {
+     font-family: Comic Sans MS;
+     font-size: 24px;
+     font-weight: bold;
+     text-transform: uppercase;
+     text-align: center;
+     background-color: MediumAquaMarine;}
+
+h1 {
+   font-family: Oblique;
+   font-size: 125%;
+   color: Red;
+   height: 50px;
+   width: 1250px;
+   border-width: thick;
+   border-style: solid;
+   border-color: black;
+   }
+
+p {
+   color: black;
+   text-transform: capitalize;
+   font-weight: normal;
+   text-align: justify;
+   background-color: pink;
+   position: relative;
+   top: 10px;
+   left: 100px
+   right: 50px;}
+
+
+
+
+ol {
+   background-color: white; 
+   text-align: left;
+   font-family: Times New Roman;
+   text-transform: capitalize;
+   position: relative;
+   top: 10px;
+   left: 50px;}
+
+blockquote {
+   float: right;
+   width: 275px;
+   font-style: italic;
+   font-family: Georgia, Times, Serif;
+   margin: 0px 0px 10px 10px;
+   padding: 10px;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;}
+   
+   
+     

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mr. Thompson's English Class</title>
+  <link rel="stylesheet" type="text/css" href="Practice_2.css"/>
+  <style>
+    /* Existing inline CSS here */
+    /* See the right hand page */
+
+    /* Styles for Easter egg button */
+    .easter-egg {
+        position: fixed;
+        bottom: 10px;  /* Reduced margin for smaller button */
+        right: 10px;   /* Reduced margin for smaller button */
+        background-color: transparent; /* Keeps the button transparent */
+        border: 1px solid rgba(0, 0, 0, 0.1); /* Lighter and almost transparent border */
+        border-radius: 50%; /* Keeps the button rounded, egg-like */
+        width: 25px; /* Reduced width by 50% */
+        height: 35px; /* Reduced height by 50%, maintaining the egg shape */
+        cursor: pointer; /* Changes cursor to pointer on hover */
+    }
+
+    /* Enlarging navigation links by 50% */
+    #nav ul li a {
+        font-size: 150%; /* Increases font size by 50% */
+    }
+  </style>
+</head>
+<body>
+   
+<div class="container_12 clearfix">
+  <div id="header" class="grid 12">
+    <h1>Mr. Thompson's English Class</h1>
+    <p>Welcome to Mr. Thompson's English class. We're gonna learn lots of cool things about reading, writing, and thinking.<br> Check out the resources below to assist you in your learning.</p>
+    <div id="nav">
+      <ul>
+        <li><a href="Home_Page.html">Home</a></li>
+        <li><a href="ResourcesPage.html">Resources</a></li>
+       
+        <li><a href="aitutor.html">AI Essay Tutor</a></li>
+      </ul>
+    </div>
+  </div>
+  <img src="bookshelf.jpg" class="align-left" />
+  <img src="writing.jpg" class="align-right" />
+  <figure>
+      <audio controls autoplay src="Rock_English_Class.m4a"></audio>
+    </figure>
+  <footer>
+    <p>&copy; John Thompson 2024</p>
+  </footer>
+</div><!-- .container_12 -->
+
+<!-- Easter Egg Link and Button -->
+<a href="EasterEgg.html" target="_blank">
+  <div class="easter-egg"></div>
+</a>
+
+</body>
+</html>
+
